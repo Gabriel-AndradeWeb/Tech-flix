@@ -1,0 +1,39 @@
+@media screen and (max-width: 900px){
+    header .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav{
+        margin: 20px 0px;
+    }
+
+    header nav a{
+        margin-left: 10px;
+    }
+
+    .video-sobre{
+        width: 100%;
+    }
+
+    .filme-principal .descricao{
+        width: 70%;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 1700px){
+    .container-sobre{
+        display: flex;
+        flex-direction: column
+    }
+
+    .video-principal{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
